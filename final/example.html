@@ -17,7 +17,7 @@
             <li>Images</li>
         </ul>
     </nav>
-    <h1>
+    <h1 class="logo">
         <span class="G">G</span>
         <span class="o1">o</span>
         <span class="o2">o</span>
@@ -27,12 +27,9 @@
     </h1>
     <div>
         <h2>Search google... </h2>
-        <h2 class ="button">Hi, there!</h2>
-        <h2 class ="button">What's up?</h2>
+        <h2 class="button">Hi, there!</h2>
+        <h2 class="button">What's up?</h2>
     </div>
-
-
-    
 </body>
 
 <footer>
@@ -42,11 +39,112 @@
         <p>settings</p>
     </div>
 
-    <h3 class="scroll"> scroll down to see the code</h3>
-    <nav class="image">
-        <img src="google css.png" alt="HTML file of this website">
-        <img src="google html.png" alt="CSS file of this website">
-    </nav>
+    <h1 class="scroll">scroll down to learn how this page was built</h1>
+
+    <div class="lesson">
+
+        <h3 class="title">HTML concepts</h3>
+
+        <div class="concept">
+            <h4>nav</h4>
+            <p>It is like a container for the menu links. I used it to hold About, Store, Gmail, and Images at the top.</p>
+        </div>
+
+        <div class="concept">
+            <h4>ul and li</h4>
+            <p>ul is a list, li is one thing in that list. I used them to make the two groups of links in the nav, (About and Store) and (gmail and Images)</p>
+        </div>
+
+        <div class="concept">
+            <h4>h1, h2, h3</h4>
+            <p>They are titles. h1 is the biggest, and the texts get smaller as the number after the h goes higher. You can see the differnece in the size of the text.</p>
+        </div>
+
+        <div class="concept">
+            <h4>span</h4>
+            <p>It wraps a small piece all together and shows the text in one line.  I used it on each letter of Google so they can be different colors but still in the same line.</p>
+        </div>
+
+        <div class="concept">
+            <h4>div</h4>
+            <p>It is just a box to group things together. I used it to group the search bar and the two greeting buttons in the middle so that i can edit them effectively.</p>
+        </div>
+
+        <div class="concept">
+            <h4>class</h4>
+            <p>It is a name you give to an element so CSS can find it. I used it to group the components however I want and to edit effectively. <br>All the green boxes here are all grouped together.</p>
+        </div>
+
+        <div class="concept">
+            <h4>footer</h4>
+            <p>It is the bottom part of the page. I used it to put the policy and terms links and this explanation down here becasue I wanted to put them at the bottom, not top of the page.</p>
+        </div>
+
+
+        <h3 class="title">CSS concepts</h3>
+
+        <div class="concept">
+            <h4>tag selector</h4>
+            <p>A tag is the name of an HTML element. When you write h2 in CSS it styles all h2s on the page at once so I don't need to style every single tag. </p>
+        </div>
+
+        <div class="concept">
+            <h4>class selector</h4>
+            <p>A dot before the name means only style elements with that class. I used .button to change the style of all the buttons.</p>
+        </div>
+
+        <div class="concept">
+            <h4>display: flex</h4>
+            <p>It makes things go side by side instead of one under the other. I used it so the nav links and footer links sit in a row.</p>
+        </div>
+
+        <div class="concept">
+            <h4>justify-content</h4>
+            <p>It decides where things go inside a flex row. I used it to push the nav links to opposite sides and the footer links to the right.</p>
+        </div>
+
+        <div class="concept">
+            <h4>margin: 0 auto</h4>
+            <p>It puts equal space on both sides to center something. I used it to put the search bar in the middle of the page.</p>
+        </div>
+
+        <div class="concept">
+            <h4>color</h4>
+            <p>It changes the text color. I used it to give each letter of Google its own color like blue, red, and green.</p>
+        </div>
+
+        <div class="concept">
+            <h4>background-color</h4>
+            <p>It is the color behind the text. I used it to make the search bar white and the buttons grey. This green box is also colored by background-color.</p>
+        </div>
+
+        <div class="concept">
+            <h4>border-radius</h4>
+            <p>It makes the corners round. I used it to make some boxes look round and kept some boxes sharp</p>
+        </div>
+
+        <div class="concept">
+            <h4>box-shadow</h4>
+            <p>It adds a soft glow around an element. I used it to give the search bar a blue glow for a visual separation.</p>
+        </div>
+
+        <div class="concept">
+            <h4>padding and margin</h4>
+            <p>Padding is space inside the box, margin is space outside the box. I used padding to make some space inside the boxes and margin to create breath room.</p>
+        </div>
+
+        <div class="concept">
+            <h4>font-size and font-weight</h4>
+            <p>font-size is how big the text is, font-weight is how thick it is. I used them to make the website more dynamic.</p>
+        </div>
+
+        <div class="concept">
+            <h4>list-style-type: none</h4>
+            <p>It removes the dots that normally show in a list. I used it so remove dots in front of About and gmail as unnecessary dots appeared. </p>
+        </div>
+
+    </div>
+
 </footer>
 
 </html>
