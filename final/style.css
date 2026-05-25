@@ -8,8 +8,9 @@ body{
 p {
     font-size: 20px;
     line-height: 30px;
-    font-family: serif;
-    margin: 20px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto ;
+    max-width: 1000px;
 }
 
 h1 {
@@ -20,7 +21,12 @@ h1 {
 }
 
 .heading{
-    margin-left: 50px;
+    border: 6px black solid;
+    border-radius: 20px;
+    padding: 25px;
+    width: 300px;
+    margin: 25px auto;
+    text-align: center;
 }
 
 img{
@@ -40,4 +46,86 @@ footer {
     font-size: 0.9em;
     color: #999;
     text-align: center;
+}
+
+nav{
+    background-color: #3F3C3D;
+    padding: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    text-align: left;
+}
+
+#menu {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0 0 10px 0;
+    vertical-align: middle;
+
+}
+#menu > li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+#menu > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#menu>li>a.active , #menu>li>a.active:hover {
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+    
+}
+
+#menu>li>a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+#ekg{
+    font-family: Impact;
+    font-size: 2.5em;
+    display: inline-block;
+    color: #999;
+    margin: 0 20px;
+}
+
+@media (max-width: 600px) {
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    .heading{
+        width: 60%;
+        font-size: 25px;
+    }
+
+    #menu{
+        display: block;
+        text-align: center;
+    }
+
+    #menu > li {
+        display: block;
+        padding: 5px 0;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 30px;
+    }
+}
+
+@media (min-width: 600px) and (max-width:1000) {
+    p{
+        font-size: 18px;
+        margin: 30px;
+    }
 }
