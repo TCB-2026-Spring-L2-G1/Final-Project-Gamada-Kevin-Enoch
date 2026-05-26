@@ -90,3 +90,11 @@ img{
     color:black;
 
 }
+
+.footer {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+}
+
